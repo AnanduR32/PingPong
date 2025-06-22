@@ -1,0 +1,57 @@
+# Unreal Engine folders to ignore
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# Ignore Visual Studio files
+.vscode/
+*.VC.db
+*.VC.opendb
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.bak
+*.old
+*.orig
+*.swp
+
+# Ignore compiled binary files
+*.exe
+*.dll
+*.lib
+*.app
+*.dylib
+*.so
+*.pdb
+
+# Ignore Unreal Crash Reports
+CrashReportClient/
+
+# Ignore local config overrides
+Config/DefaultEditorPerProjectUserSettings.ini
+Config/DefaultEditor.ini
+*.local
+
+# Ignore Git itself
+.gitattributes
+.gitattributes.lock
+.gitignore.lock
+
+# If you're using Git LFS, you can track large assets
+# Uncomment if you install Git LFS and want to track UE assets
+# *.uasset filter=lfs diff=lfs merge=lfs -text
+# *.umap filter=lfs diff=lfs merge=lfs -text
